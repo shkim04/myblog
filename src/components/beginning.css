@@ -1,0 +1,9 @@
+/* .left {
+  float: left;
+}
+
+@media (max-width: 750px) {
+  .left {
+    float: none;
+  }
+} */

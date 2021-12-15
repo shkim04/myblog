@@ -1,0 +1,56 @@
+#filler {
+  background: #ff0000;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+
+#process-section {
+  width: 100%;
+  margin: 0 0 50px 0;
+}
+
+#process-section .progress-bar-box {
+  width: 100%;
+  height: 80px;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  #process-section .progress-bar-box {
+    width: 100%;
+  }
+}
+
+#process-section .progress-bar-box #progress-bar {
+  width: 95%;
+}
+
+#process-section .progress-bar-box #progress-bar .progress-bar-container {
+  position: relative;
+  height: 25px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+
+#process-section .progress-bar-box #progress-bar .zero-to-hundred {
+  width: 100%;
+  margin: 0;
+}
+
+#process-section .progress-bar-box #progress-bar .zero-to-hundred .zero {
+  float: left;
+  margin: 0;
+  font-weight: 600;
+}
+
+#process-section .progress-bar-box #progress-bar .zero-to-hundred .hundred {
+  float: right;
+  margin: 0;
+  font-weight: 600;
+}

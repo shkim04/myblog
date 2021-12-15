@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 17px;
+}
+
+@media (max-width: 750px) {
+    html {
+        height: auto;
+    }
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container{
+    max-width: 100%;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    min-height: 100vh;
+}
+
+@media (max-width: 750px) {
+    .content-container {
+        margin: 0;
+        position: relative;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both;
+}
+
+.sub-title {
+    color: #ff0000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+@media (max-width: 320px) {
+    .sub-title {
+        font-size: 14px;
+    }
+}

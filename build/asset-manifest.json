@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d760e034.chunk.css",
+    "main.js": "/static/js/main.cdb515a6.chunk.js",
+    "main.js.map": "/static/js/main.cdb515a6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3b224f45.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3b224f45.js.map",
+    "static/js/2.2e9a5318.chunk.js": "/static/js/2.2e9a5318.chunk.js",
+    "static/js/2.2e9a5318.chunk.js.map": "/static/js/2.2e9a5318.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d760e034.chunk.css.map": "/static/css/main.d760e034.chunk.css.map",
+    "static/js/2.2e9a5318.chunk.js.LICENSE.txt": "/static/js/2.2e9a5318.chunk.js.LICENSE.txt",
+    "static/media/addition-practice.17d2c265.mp4": "/static/media/addition-practice.17d2c265.mp4",
+    "static/media/avatar_large.be99a7b1.png": "/static/media/avatar_large.be99a7b1.png",
+    "static/media/calculator.css": "/static/media/digital-7.93911ab1.ttf",
+    "static/media/trips-tracker.da0d8991.mp4": "/static/media/trips-tracker.da0d8991.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b224f45.js",
+    "static/js/2.2e9a5318.chunk.js",
+    "static/css/main.d760e034.chunk.css",
+    "static/js/main.cdb515a6.chunk.js"
+  ]
+}

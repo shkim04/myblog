@@ -1,0 +1,19 @@
+.description-addition-practice {
+    width: 100%;
+}
+
+.description-addition-practice 
+.explanation-ad-practice {
+    margin: 10px 0;
+}
+
+.description-addition-practice 
+.comments-ad-practice {
+    text-align: justify;
+    width: 100%;
+}
+
+.description-addition-practice .github {
+    color: #0000ff;
+    display: block;
+}

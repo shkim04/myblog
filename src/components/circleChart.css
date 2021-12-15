@@ -1,0 +1,58 @@
+#circle-chart {
+  margin: 0;
+  width: 100%;
+}
+
+.circle-chart-box {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-chart-box .main-canvas {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 20px 0;
+  vertical-align: middle;
+  min-height: 250px;
+  min-width: 374px;
+}
+
+@media (max-width: 750px) {
+  .circle-chart-box .main-canvas {
+    width: 80%;
+  }
+}
+
+.circle-chart-box .main-canvas #tooltip {
+  z-index: 1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  padding: 2px;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+@media (max-width: 320px) {
+  .circle-chart-box .main-canvas #tooltip {
+    display: none;
+  }
+}
+
+.description-chart {
+  line-height: 28px;
+  text-align: justify;
+  width: 100%;
+}
+
+.description-chart .freecodecamp {
+  color: #0000ff;
+}

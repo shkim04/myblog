@@ -1,0 +1,19 @@
+.description-trip-tracker {
+    width: 100%;
+}
+
+.description-trip-tracker 
+.explanation-trip-tracker {
+    margin: 10px 0;
+}
+
+.description-trip-tracker .github {
+    color: #0000ff;
+    display: block;
+}
+
+.description-trip-tracker 
+.comments-trip-tracker {
+    text-align: justify;
+    width: 100%;
+}
